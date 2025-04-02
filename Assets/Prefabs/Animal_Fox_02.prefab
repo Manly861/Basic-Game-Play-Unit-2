@@ -714,6 +714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7800793611023119519}
   - component: {fileID: 994372343935018865}
+  - component: {fileID: 630581442638642550}
   m_Layer: 0
   m_Name: SM_Fox_02
   m_TagString: Untagged
@@ -792,6 +793,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000059604645, y: -0.029301882, z: 0.073896945}
     m_Extent: {x: 0.040517867, y: 0.104077205, z: 0.1580456}
   m_DirtyAABB: 0
+--- !u!65 &630581442638642550
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7323969845290049793}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08103573, y: 0.20815443, z: 0.3160912}
+  m_Center: {x: -0.000000059604645, y: -0.029301867, z: 0.073896945}
 --- !u!1 &7563295927788982965
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +913,7 @@ GameObject:
   - component: {fileID: 1728157733297555891}
   - component: {fileID: 7464832014066319954}
   - component: {fileID: 5827682785369479971}
+  - component: {fileID: 3888993187878152261}
   m_Layer: 0
   m_Name: Animal_Fox_02
   m_TagString: Untagged
@@ -959,7 +982,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff639353359be343a341fa2a6fa7d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 10
+--- !u!65 &3888993187878152261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8763988661706236282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08420737, y: 0.21436608, z: 0.3243058}
+  m_Center: {x: -0.0012972475, y: 0.10676581, z: 0.017781675}
 --- !u!1 &8924700959195586864
 GameObject:
   m_ObjectHideFlags: 0
