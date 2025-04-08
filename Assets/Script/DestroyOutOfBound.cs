@@ -13,6 +13,7 @@ public class DestroyOutOfBound : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // If an object goes paste the players view in the game, remove that onject
         if (transform.position.z > topBound)
         {
             Destroy(gameObject);
