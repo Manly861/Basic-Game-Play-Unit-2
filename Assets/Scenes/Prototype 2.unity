@@ -491,7 +491,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc90d48240dd64916900ac98e11b3e5f, type: 2}
+  - {fileID: 2100000, guid: 42b224efc5a8c4863a87e224a72bb1ea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalInput: 0
   speed: 10
-  xRange: 10
+  xRange: 20
   projectilePrefab: {fileID: 7708179593761050577, guid: 6544b420fae607643b334cdb1c62a1c2, type: 3}
 --- !u!1001 &1738804458
 PrefabInstance:
@@ -1090,7 +1090,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Food_Pizza_01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4919306309408750281, guid: 6544b420fae607643b334cdb1c62a1c2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
